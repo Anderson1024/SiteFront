@@ -9,7 +9,7 @@ body {
     background-color: #58a4eb;
     }
 header{
-    background-color: rgba(6, 20, 216, 0.329);
+    background-color: rgba(6, 20, 216, 0.082);
     display: flex;
     align-items: center;         
     justify-content: center; 
@@ -24,7 +24,27 @@ header h1 {
 header img{
     width: 100px;
     }
-        
+
+.boasVindas{
+    position: relative;
+    max-width: 1100px;
+    margin: 50px auto;
+    background-color: rgba(6, 20, 216, 0.521);
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0);
+    z-index:2;
+}   
+
+.boasVindas h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.boasVindas p{
+    font-size: 25px;
+}
+
 .links{
     font-family:OCR A Std, monospace;
     font-size: 25px;
@@ -71,7 +91,7 @@ header img{
 
     }
         
-.container {
+.ias {
     position: relative;
     max-width: 1100px;
     margin: 50px auto;
